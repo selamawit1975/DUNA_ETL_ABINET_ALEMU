@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectInfo>
+    <Name>QL_ABINET_ALEMU_SSIS_PACKAGES</Name>
+    <LastWriteTime>2020-09-04T11:28:48.4896579Z</LastWriteTime>
+    <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+  </ProjectInfo>
+  <LastBuildInfos>
+    <ProjectBuildItemInfo>
+      <Name>PKG_ABINET_ALEMU_Lending QB.dtsx</Name>
+      <LastWriteTime>2020-09-06T01:44:01.9463592Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>PKG_QL_ABINET_ALEMU_SSIS_PACKAGE.dtsx</Name>
+      <LastWriteTime>2020-08-27T01:57:15.0338491Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>PKG_ABINET_ALEMU_LENDINGWISE.dtsx</Name>
+      <LastWriteTime>2020-08-28T18:49:37.9074358Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>PKG_ABINET_ALEMU_QUICKENLOAN.dtsx</Name>
+      <LastWriteTime>2020-08-28T18:54:19.3571483Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>PKG_ABINET_ALEMU_LENDINGPAD.dtsx</Name>
+      <LastWriteTime>2020-08-28T18:56:15.067861Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>PKG_ABINET_ALEMU_SIMPLENEXUS.dtsx</Name>
+      <LastWriteTime>2020-08-28T18:57:04.6922209Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>PKG_ABINET_ALEMU_UBERWRITER.dtsx</Name>
+      <LastWriteTime>2020-08-28T18:58:42.0719361Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+  </LastBuildInfos>
+</BuildLog>

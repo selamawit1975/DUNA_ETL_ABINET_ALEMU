@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "QL_ABINET_ALEMU_SSIS_PACKAGES", "QL_ABINET_ALEMU_SSIS_PACKAGES.dtproj", "{D56AC67B-0653-46FB-8CBD-DE3CC7071C70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Azure|Default = Azure|Default
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D56AC67B-0653-46FB-8CBD-DE3CC7071C70}.Azure|Default.ActiveCfg = Azure
+		{D56AC67B-0653-46FB-8CBD-DE3CC7071C70}.Azure|Default.Build.0 = Azure
+		{D56AC67B-0653-46FB-8CBD-DE3CC7071C70}.Development|Default.ActiveCfg = Development
+		{D56AC67B-0653-46FB-8CBD-DE3CC7071C70}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA9BCFE3-2A87-4D6A-8056-47C22250D70A}
+	EndGlobalSection
+EndGlobal
