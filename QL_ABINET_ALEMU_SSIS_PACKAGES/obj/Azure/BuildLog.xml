@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>QL_ABINET_ALEMU_SSIS_PACKAGES</Name>
-    <LastWriteTime>2020-09-04T11:28:48.4896579Z</LastWriteTime>
+    <LastWriteTime>2020-09-09T02:41:16.8451383Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>PKG_ABINET_ALEMU_Lending QB.dtsx</Name>
-      <LastWriteTime>2020-09-08T01:30:39.7761798Z</LastWriteTime>
+      <LastWriteTime>2020-09-13T01:23:42.91232Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
@@ -19,11 +19,6 @@
     <ProjectBuildItemInfo>
       <Name>PKG_ABINET_ALEMU_LENDINGWISE.dtsx</Name>
       <LastWriteTime>2020-08-28T18:49:37.9074358Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>PKG_ABINET_ALEMU_QUICKENLOAN.dtsx</Name>
-      <LastWriteTime>2020-08-28T18:54:19.3571483Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
@@ -39,6 +34,11 @@
     <ProjectBuildItemInfo>
       <Name>PKG_ABINET_ALEMU_UBERWRITER.dtsx</Name>
       <LastWriteTime>2020-08-28T18:58:42.0719361Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>PKG_ABINET_ALEMU_QUICKENLOAN.dtsx</Name>
+      <LastWriteTime>2020-09-13T19:05:36.1131628Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
