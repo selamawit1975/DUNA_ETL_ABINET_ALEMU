@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="PKG_ABINET_ALEMU_QUICKENLOAN"
   DTS:PackageType="5"
-  DTS:VersionBuild="141"
-  DTS:VersionGUID="{FD1837D9-A103-4863-BF62-F5CC65F33B45}">
+  DTS:VersionBuild="160"
+  DTS:VersionGUID="{73CE7811-EE95-4A2E-AE3E-487FC1B97AFE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -38,23 +38,6 @@
           DTS:ConnectionString="Data Source=DESKTOP-TR5B11M\;Initial Catalog=QLSSISLOG;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Salesforce Connection Manager]"
-      DTS:CreationName="Salesforce (KingswaySoft)"
-      DTS:DTSID="{CF24CCA9-CCBD-4255-AF27-B999EE992E86}"
-      DTS:ObjectName="Salesforce Connection Manager">
-      <DTS:ObjectData>
-        <SalesforceConnectionManager
-          ConnectionString="InstanceType=Sandbox;AuthenticationType=AuthorizationCode;ServiceEndpoint=SOAP;ServiceUrl=https://test.salesforce.com/services/Soap/u/48.0;TokenPath=;ClientId=;RedirectUri=;CertificateThumbprint=;UserName=salesforce@dunallc.com.sandboxdev;ServiceTimeout=120;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;ProxyUsername=;RetryOnIntermittentErrors=True">
-          <Password
-            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABJMA1V6R2k69jx9V5LnthAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAASuRkbxkb1v0HlYdWpG1ftkn9RJO5eGwqyVAxJVp6QdwAAAAAOgAAAAAIAACAAAACHi3/XvVQ4EzlQ9RTqoXOXSLleyKKWevjHVueqCMGIfiAAAAD5mAhhwr6H8PSB7JiEhvNWhhR36LvbjfNAX4SJk+wlR0AAAAAK0EDxMP67nmYOxrbzf5sa1yQVV5pwOvISymb2hQZQlVGoIHLJ/K+sERW9DLxX0ZVi6hnotavDb5JjXi6ciaTv</Password>
-          <SecurityToken
-            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABJMA1V6R2k69jx9V5LnthAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAWPVdxruBOi5nNIsYEPfwvBzMDaxM8WCKylFMPaH/RCQAAAAAOgAAAAAIAACAAAABZDqDkmxPpiaexUfXrcOtpNFNe2wbAfaifK/n7Rn+mL0AAAABlwB91679f512HsHH2PO7Asb+3TgvZpgaNNvDGHKocnHdJ2aYjV2XawDIE04PsYkHwfUEXO36ZhnKvqiL56w9YQAAAAG6PTD8UsjdDJUERMF3c/Aq2ubQPcs0NP+ZowAr41pN6g1XRouGLSzLss03Icbzh5RhMjPb6EUAv4Vu7a5jkX24</SecurityToken>
-        </SalesforceConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:PackageParameters>
     <DTS:PackageParameter
@@ -77,7 +60,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varBody">
       <DTS:VariableValue
-        DTS:DataType="7">9/13/2020 3:05:36 PM</DTS:VariableValue>
+        DTS:DataType="7">9/16/2020 6:52:02 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -161,7 +144,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varTimeStamp">
       <DTS:VariableValue
-        DTS:DataType="7">9/13/2020 3:05:36 PM</DTS:VariableValue>
+        DTS:DataType="7">9/16/2020 6:52:02 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -13580,8 +13563,8 @@ where [refTable].[MarketSourceCode] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Task_QuickenLoan_Salesforce\Salesforce Source.Connections[Salesforce]"
-                  connectionManagerID="Package.ConnectionManagers[Salesforce Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Salesforce Connection Manager]"
+                  connectionManagerID="{CF24CCA9-CCBD-4255-AF27-B999EE992E86}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[Salesforce Connection Manager]"
                   description="Salesforce Connection"
                   name="Salesforce" />
               </connections>
@@ -16343,13 +16326,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <AnnotationLayout
-          Text="Text - &gt;WSTR-STR IN Derived Column"
-          ParentId="Package\Data Flow Task_QuickenLoan_Salesforce"
-          FontInfo="{assembly:Null}"
-          Size="229,40"
-          Id="cb7ff33e-d969-4880-bba9-47c8c16d0296"
-          TopLeft="1022,280" />
         <EdgeLayout
           Id="Package\Data Flow Task_QuickenLoan_Salesforce.Paths[BorrFirstorLastName_NotTest]"
           TopLeft="184,182">
@@ -16386,6 +16362,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <AnnotationLayout
+          Text="Text - &gt;WSTR-STR IN Derived Column"
+          ParentId="Package\Data Flow Task_QuickenLoan_Salesforce"
+          FontInfo="{assembly:Null}"
+          Size="229,40"
+          Id="cb7ff33e-d969-4880-bba9-47c8c16d0296"
+          TopLeft="1022,280" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>

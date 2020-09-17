@@ -101,7 +101,7 @@
         SSIS:Name="Sensitive">1</SSIS:Property>
       <SSIS:Property
         SSIS:Name="Value"
-        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABJMA1V6R2k69jx9V5LnthAAAAAACAAAAAAAQZgAAAAEAACAAAABx9/u8NCQE7g4tDzUiflXpGZz9AvoIE8F38GLpvoYF1AAAAAAOgAAAAAIAACAAAADinTTOklw00n+3LEoIPOuYIAhmFUj1FdGyXvurYd87sIAAAAAQc0lHC/8uarxLPejFNhyEsObX8fmkSnX6ZGVKNx7tLtvXVN8PQ79i+zWG4Shafi+CbzHGtgpQHH0MJxNvSesgOykj5x9cmkOhhvlcLqHFITmGx1Rh/UystOyqhJczV/pTrrWmxF2ja601useAlkTDWbotdZGOwI4bVngn7UErukAAAAB3DQbr5rimXvv+Qyijm9ygNft+rBArEOvziKVBcqoi4bYRjq/ZFiGwxAxVrnVfQb4AL7Ht9LYiQ3HVblkuk2ty</SSIS:Property>
+        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABJMA1V6R2k69jx9V5LnthAAAAAACAAAAAAAQZgAAAAEAACAAAAC0OsPg0aZFQVclUc6rvhfD4i0ZFV0bQW4meHqeg8s2fAAAAAAOgAAAAAIAACAAAAAqko3HRtlvG0/yWQiP4mZSxZfRjx19dGoB9ibDPipQ/YAAAADmUrSVf1Jin4xoDin0N0kk0bcEMi/iUsSwG5LHCSH8vk9IwQHwlN1HLBgLIgp3lvw/svi0LLVj3TLJOedTrcLJNJIcOXvYNcmni61uFLuYEz/sD6/kFn3XvPQt+4WsvOaieJO72Vr5tSjXl96tDj4xVFS2+s9A8J+aOgGXi2KPC0AAAABV9iO1uZ4+4xicD/ZFw7zieu0lleGta8MqSLnWG7pXGqvx+kUXS4un4EMsqWPfWOZDkmvVQ7+QcN+ZcPjTDubv</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -123,7 +123,72 @@
         SSIS:Name="Sensitive">1</SSIS:Property>
       <SSIS:Property
         SSIS:Name="Value"
-        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABJMA1V6R2k69jx9V5LnthAAAAAACAAAAAAAQZgAAAAEAACAAAAB2f76ovIdjpwyieAFfxbDIWj29T//FFIp8I9qg9WCSqgAAAAAOgAAAAAIAACAAAADkwnxu87R6a8bx3ieb5rD6SOiMswaQLMyGVNXt4KhPMJAAAABzktjXvL2YDR77TS2rIx2Omx7Sxyg19Vc2FgwGaBw+P3t9c/5Fp6txWfs50pZFDeFFbbVLGG99z60r9dM3ZBXO+k2onYpwikI0BpBgSAt2LJ/X+kZMmciiHEt84MzDGFtfnY6YlVaGY9sdRLCy+Mucc1L89/7OGf5qJgKbWU8H4IELCB33ccqxNRjc4UxbDbxAAAAAP5nbTCutlMF16LGYj6IFf1MKCJ+Ot50U5vPQqq5nC/11n0HIrQKvQU6OD0HIzRwRVQSm3YM7izS6gTYENcZubg==</SSIS:Property>
+        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABJMA1V6R2k69jx9V5LnthAAAAAACAAAAAAAQZgAAAAEAACAAAABosCaHfcvxxTMyfznw7S+VUpwoTo6j4+6VLgjPn+TgTwAAAAAOgAAAAAIAACAAAAAHOaGqtHYtxCQMKx0Q3X7dLhDuRbH7EJnQXFb1JMfGa5AAAAA7eBuwTyH5GSzooza5NRfml1EYw0seCnTgiIprhgeXRAJWA0GXwKFcDwblMXxM8jtbtC2qPUA42xvQyZrc+kCzDQeYhWqRVeFgrhoWnfNFCPCklp8ULO87nyzLAt+mD5aBRFbf58QyOVmYLeSZcFC+0KTVKFtOi58B8gNbZg+AE8Lbjmz79wqDKL0ZL+KkoRtAAAAAM38nbnyXIurvcSLJ7KaqFCo/Cxft8+nRUnSYPGkV6KkI7tMaa+z9k1gKMaAZs5NErKNZUGHYVQJqy3NCcbdlAg==</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="DunaDatabaseWindowsNetUberWriterUberWriter1_Password">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{cc36f915-0e9f-4641-bbf4-612ae944edb4}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">1</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value"
+        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABJMA1V6R2k69jx9V5LnthAAAAAACAAAAAAAQZgAAAAEAACAAAAA+yJNUwrbEgIUE1WcZXZy2A1LwdPmKIAoV2B+XsfCRNAAAAAAOgAAAAAIAACAAAAC9sF5szAJkwtX4+m8hnlr3W1Zveo/Sy9svJVXvPajJEYAAAADuFxn9upEuVwRNK8JkkTTvziDLX9cY5IIg8f+JsDO/b4To/xb7SY2Sh95RfGJJLfs8TP0CHgL5pskW822UNlLOdvkH5NrTs0Lf1jIv0F2W3ESfY1lxadWKPUlAb0G09PMUxTIYhSmOiKqsXoKrbGEza9lIGCsSBnCk1bv3jRgmPUAAAADQbSEUkyGMsLwOjrf3vvRr338Z6mzvmzflhosLPydUEY9XSX2XTFDp6zq7Ph3Ox39/MbFwEE5r/jVZExVlGIOC</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="DunaDatabaseWindowsNetUberWriterUberWriter_ConnectionString">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{aca22fb4-66e2-484a-b7fa-f1ebed1ffdc6}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">Data Source=Duna.database.windows.net;User ID=UberWriter;Initial Catalog=UberWriter;Application Name=SSIS-PKG_ABINET_ALEMU_UberWriter-{02F43C26-383B-4188-BEBB-9BCA3DBC0154}Duna.database.windows.net.UberWriter.UberWriter;</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="DunaDatabaseWindowsNetUberWriterUberWriter_Password">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{e2efac62-4a94-41d6-a69a-16b00d16b9c6}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">1</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value"
+        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABJMA1V6R2k69jx9V5LnthAAAAAACAAAAAAAQZgAAAAEAACAAAACCILmguvguBV4AkXto/6IGSjWoQHVvlykNC88oiN9FFQAAAAAOgAAAAAIAACAAAAAJOBhrb/gbBTz+YwmvCimj0FeUL3QfSgakRiFwp0fdSIAAAADwdZzArCrFzXcFZfLkbc3QibfAA1NmtuIPNLn/OW4urejMzEDKjkWtBOrfDyr93SLmZNkKXxziFWgbegflqmT/mAw+XtJ2tQH2xaHr+3T4gF271LRpg0ZcT+yB2SRAXYpJhiVzvyNOqsioTMHSXIBpc143T1xo5ALBTgXxWTCXpkAAAAAQubIlIZKcVmhoOePAUP7VXajv1eToB7PjloOo2a6IMIxtxveWv/jaAwpjbvjN7vFUoQWjOhtla71sA+iIPjsl</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
